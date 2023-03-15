@@ -2,6 +2,7 @@ export class ListOfGames{
 
     constructor(games){
         this.games = games;
+        console.log(this.games);
     }
 
     getAmountOfGames(){

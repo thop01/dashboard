@@ -24,7 +24,6 @@ app.use(express.static('public'));
 
 app.get('/api/games', (req, res) => {
     res.json(games);
-  res.send('Hello World!');
 });
 
 app.get('/api/games/:id', (req, res) => {
