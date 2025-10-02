@@ -1,29 +1,23 @@
 {
   "name": "dashboard",
-  "version": "1.0.0",
-  "description": "an example for creating a dashboard in nodejs & bootstrap",
-  "main": "server.js",
-  "type": "module",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "dashboard",
-    "nodejs",
-    "bootstrap",
-    "html",
-    "css",
-    "javascript",
-    "commonjs",
-    "modulejs"
-  ],
-  "author": "Pascal Thong",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.21"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "uuid": "^9.0.0"
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
   }
 }
